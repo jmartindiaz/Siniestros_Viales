@@ -8,8 +8,8 @@ En este proyecto, con una base de datos capaz de ponerle números a esta afirmac
 
 ## Objetivo
 
-- A través de un ``Análisis Exploratorio``: analizar la calidad de la fuente de datos: si posee datos duplicados, datos atipicos o datos vacíos, así como tambien los patrones y la relacion entre campos.
-- A través de un Dashboard: exponer las cifras de los siniestros con el fin de concientizar y dejar al descubierto los aspectos que se deben mejorar
+- A través de un 🔍**Análisis Exploratorio**: analizar la calidad de la fuente de datos: si posee datos duplicados, datos atipicos o datos vacíos, así como tambien los patrones y la relacion entre campos.
+- A través de un 📊**Dashboard**: exponer las cifras de los siniestros con el fin de concientizar y dejar al descubierto los aspectos que se deben mejorar
 
 ## Contenido
 

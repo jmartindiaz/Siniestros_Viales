@@ -18,18 +18,18 @@ DROP TABLE IF EXISTS `hh`;
 CREATE TABLE IF NOT EXISTS `hh` (
   	`ID` VARCHAR(15),
     `N_VICTIMAS` INTEGER,
-    `FECHA` DATE,    
-    `AAAA` VARCHAR(50),
-    `MM` VARCHAR(50),
-    `DD` VARCHAR(50),
-    `HORA` VARCHAR(50),
-    `HH` VARCHAR(50),
-    `LUGAR_DEL_HECHO` VARCHAR(100),
+    `FECHA` DATE,
+    `AAAA` INTEGER,
+    `MM` INTEGER,
+    `DD` INTEGER,
+    `HORA` TIME,
+    `HH` INTEGER,
+    `LUGAR_DEL_HECHO` VARCHAR(50),
     `TIPO_DE_CALLE` VARCHAR(20),
     `Calle` VARCHAR(50),
-    `Altura` DECIMAL(10,2),
+    `Altura` VARCHAR(20),
     `Cruce` VARCHAR(50),
-    `Dirección Normalizada` VARCHAR (100),
+    `Dirección Normalizada` VARCHAR (50),
     `COMUNA` VARCHAR(30),
     `XY (CABA)` VARCHAR(60),
     `pos x` VARCHAR(50),
@@ -45,19 +45,11 @@ from hh ; -- ESTA OK
 LOAD DATA INFILE 'C:\\Users\\Martin\\Desktop\\Mis Proyectos\\Siniestros_Viales\\datasets\\hh.csv'
 INTO TABLE `hh` 
 FIELDS TERMINATED BY ',' 
-ENCLOSED BY '"' ESCAPED BY '\\' 
+ENCLOSED BY '' ESCAPED BY '' 
 LINES TERMINATED BY '\n' IGNORE 1 LINES;
 
 -- Error Code: 1262. Row 1 was truncated; it contained more data than there were input columns
---  Para corregir este error debimos especificar bien el ENCLOSED BY y el ESCAPED BY.
 
-select *
-from hh
-limit 10;
-
-select TIPO_DE_CALLE,count(*)
-from hh
-group by TIPO_DE_CALLE;
 
 
 

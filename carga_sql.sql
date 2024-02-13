@@ -20,14 +20,14 @@ CREATE TABLE IF NOT EXISTS `hh` (
     `N_VICTIMAS` INTEGER,
     `FECHA` DATE,    
     `AAAA` VARCHAR(50),
-    `MM` VARCHAR(50),
-    `DD` VARCHAR(50),
+    `MM` INTEGER,
+    `DD` INTEGER,
     `HORA` VARCHAR(50),
-    `HH` VARCHAR(50),
+    `HH` INTEGER,
     `LUGAR_DEL_HECHO` VARCHAR(100),
     `TIPO_DE_CALLE` VARCHAR(20),
     `Calle` VARCHAR(50),
-    `Altura` DECIMAL(10,2),
+    `Altura` VARCHAR(20),
     `Cruce` VARCHAR(50),
     `Dirección Normalizada` VARCHAR (100),
     `COMUNA` VARCHAR(30),
@@ -58,6 +58,8 @@ limit 10;
 select TIPO_DE_CALLE,count(*)
 from hh
 group by TIPO_DE_CALLE;
+
+
 
 
 

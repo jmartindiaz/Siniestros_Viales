@@ -21,7 +21,7 @@ En este proyecto, contamos con una base de datos capaz de ponerle números a est
 - `requirements.txt`: contiene los nombres de las liberías de python utilizadas para el Análisis Exploratorio de los Datos.
 - `datasets_complementarios`: contiene datasets complementarios para nuestro análisis: comunas y barrios, poblacion por comunas según diferentes años. Fuentes: 
 
-            - https://data.buenosaires.gob.ar/dataset/barrios
-            - https://www.estadisticaciudad.gob.ar/eyc/?p=28146 
+    https://data.buenosaires.gob.ar/dataset/barrios
+    https://www.estadisticaciudad.gob.ar/eyc/?p=28146 
 
 

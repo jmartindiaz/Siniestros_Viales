@@ -19,3 +19,4 @@ En este proyecto, contamos con una base de datos capaz de ponerle números a est
 - `homicidios.xlsx`: en la primera y segunda hoja se encuentra la tabla de HECHOS y su DICCIONARIO de columnas, respectivamente. En la tercer y cuarta hoja se encuentra la tabla de VICTIMAS y su DICCIONARIO de columnas, respectivamente. En la última hoja se encuentran detallados los valores que pueden tomar cada uno de los campos.
 - `lesiones.xlsx`:
 - `requirements.txt`: contiene los nombres de las liberías de python utilizadas para el Análisis Exploratorio de los Datos.
+- `datasets_complementarios`: contiene datasets complementarios para nuestro análisis. Fuente: https://data.buenosaires.gob.ar/dataset/barrios
